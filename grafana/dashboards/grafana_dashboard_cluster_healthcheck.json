@@ -445,7 +445,7 @@
       "valueName": "current"
     },
     {
-      "content": "<img src=\"http://kafka.apache.org/images/logo.png\" alt=\"Apache Kafkas logo\" style=\"height: 80px;\">\n\n<p style=\"margin-top: 10px;\">You're using Apache Kafka, an open-source distributed and fault-tolerant streaming platform originally built at LinkedIn. For more information, check out the <a href=\"http://kafka.apache.org/\">kafka.apache.org</a>",
+      "content": "<img src=\"http://kafka.apache.org/images/apache-kafka.png\" alt=\"Apache Kafkas logo\" style=\"height: 80px;\">\n\n<p style=\"margin-top: 10px;\">You're using Apache Kafka, an open-source distributed and fault-tolerant streaming platform originally built at LinkedIn. For more information, check out the <a href=\"http://kafka.apache.org/\">kafka.apache.org</a>",
       "gridPos": {
         "h": 6,
         "w": 5,

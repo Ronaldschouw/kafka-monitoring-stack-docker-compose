@@ -1,8 +1,8 @@
 # my global config
 global:
-  scrape_interval:     15s # Set the scrape interval to every 15 seconds. Default is every 1 minute.
-  evaluation_interval: 15s # Evaluate rules every 15 seconds. The default is every 1 minute.
-  # scrape_timeout is set to the global default (10s).
+  scrape_interval:     60s # Set the scrape interval to every 15 seconds. Default is every 1 minute.
+  evaluation_interval: 60s # Evaluate rules every 15 seconds. The default is every 1 minute.
+  scrape_timeout: 60s # is set to the global default (10s).
 
 # Alertmanager configuration
 alerting:
@@ -26,4 +26,10 @@ scrape_configs:
     # scheme defaults to 'http'.
 
     static_configs:
-    - targets: ['jmx-kafka101:5556','jmx-kafka102:5556', 'jmx-kafka103:5556']
+    - targets: ['jmx-kafka101:5556','jmx-kafka102:5556','jmx-connect102:5556']
+
+  - job_name: test-zk
+    static_configs:
+    - targets: ['jmx-zookeeper-dc1:5556']
+
+
