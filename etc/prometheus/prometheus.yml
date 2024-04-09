@@ -26,10 +26,4 @@ scrape_configs:
     # scheme defaults to 'http'.
 
     static_configs:
-    - targets: ['jmx-kafka101:5556','jmx-kafka102:5556','jmx-connect102:5556']
-
-  - job_name: test-zk
-    static_configs:
-    - targets: ['jmx-zookeeper-dc1:5556']
-
-
+    - targets: ['jmx-kafka101:5556','jmx-kafka102:5556']
